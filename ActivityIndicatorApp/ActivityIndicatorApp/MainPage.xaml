@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ActivityIndicatorApp"
+             x:Class="ActivityIndicatorApp.MainPage">
+
+    <ContentPage.Content>
+        <!-- Place new controls here -->
+        <StackLayout>
+            <Button Text="GO TO NEW PAGE" Clicked="Button_Clicked"/>
+            <ActivityIndicator Color="Maroon" IsRunning="true" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
